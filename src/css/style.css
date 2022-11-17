@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#background .background_img .img1{
+    width: 100%;
+    height: 100vh;
+    margin: -140px 0px auto;
+    object-fit: cover;
+    z-index: -1000;
+    position: relative;
+}
+.web_left{
+    width: 400px;
+    height: 100vh;
+    background: black;
+    z-index: 7;
+    margin: 10px 10px;
+}
+
+.text1{
+    color: rgb(228, 228, 228);
+    font-size: 16px;
+    margin: -500px 205px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    position: absolute;
+}
+.text2{
+    color: #252429;
+    font-size: 120px;
+    margin: -490px 205px;
+    font-family: 'Sawarabi Mincho', serif;
+    font-weight: 400;
+    position: absolute;
+}
+.text3{
+    color: #252429;
+    font-size: 14px;
+    margin: -300px 205px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+.text4{
+    color: rgb(228, 228, 228);
+    font-size: 16px;
+    margin: -100px 205px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    position: absolute;
+    cursor: pointer;
+}
+.shop_menu{
+    display: flex;
+    gap: 30px;
+    width: 380px;
+    height: 100px;
+    border-radius: 15px;
+    background: rgba(216, 216, 216, 0.385);
+    position: absolute;
+    margin: -140px 1000px auto;
+    cursor: pointer;
+}
+.shop_menu .shop_img .img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px ;
+  
+}
+.shop_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 10px;
+   
+}
+.shop_text .next_post{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}

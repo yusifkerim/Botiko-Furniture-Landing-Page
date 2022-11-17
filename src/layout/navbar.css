@@ -1,0 +1,46 @@
+nav{
+    position: relative;
+    padding: 10px;
+    margin: 25px 140px;
+    width: 1220px;
+    height: 90px;
+    background: #252429;
+    z-index: 7;
+}
+nav .menu{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+    margin: 18px 60px auto;
+ }
+ .menu .logo{
+    width: 67px;
+    height: 22px;
+    cursor: pointer;
+}
+ nav .menu .menu_items ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+ }
+ nav .menu .menu_items ul li{
+     list-style: none;
+}
+ nav .menu .menu_items ul li>a{
+     text-decoration: none;
+     color: white;
+     text-transform: capitalize;
+}
+
+ .menu .search_icon .icon1{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    cursor: pointer;
+
+ }
+ 
